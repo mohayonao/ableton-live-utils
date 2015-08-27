@@ -1,7 +1,7 @@
 {
   "name": "@mohayonao/ableton-live-utils",
   "description": "utility functions",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "mohayonao <mohayonao@gmail.com>",
   "bugs": {
     "url": "https://github.com/mohayonao/ableton-live-utils/issues"
@@ -28,7 +28,7 @@
   },
   "scripts": {
     "cover": "istanbul cover --report text --report html _mocha",
-    "lint": "eslint . test",
+    "lint": "eslint ./*.js test",
     "prepublish": "npm run lint && npm run test",
     "test": "mocha --require intelli-espower-loader",
     "travis": "npm run lint && npm run test"
