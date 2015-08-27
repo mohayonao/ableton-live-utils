@@ -1,0 +1,17 @@
+{
+  "name": "@mohayonao/ableton-live-utils",
+  "description": "utility functions",
+  "version": "0.0.0",
+  "author": "mohayonao <mohayonao@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mohayonao/ableton-live-utils/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohayonao/ableton-live-utils/"
+  },
+  "scripts": {}
+}
