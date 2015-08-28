@@ -1,7 +1,7 @@
 {
   "name": "@mohayonao/ableton-live-utils",
   "description": "utility functions",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "mohayonao <mohayonao@gmail.com>",
   "bugs": {
     "url": "https://github.com/mohayonao/ableton-live-utils/issues"
@@ -22,6 +22,7 @@
     "*.js"
   ],
   "license": "MIT",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mohayonao/ableton-live-utils/"
