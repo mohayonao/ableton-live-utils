@@ -7,28 +7,10 @@
 
 ## Installation
 
-Node.js
-
 ```sh
 npm install @mohayonao/ableton-live-utils
 ```
 
-## Examples
-
-```js
-import convertFineIntoDetune from "@mohayonao/utils/convertFineIntoDetune";
-
-let audioContext = new AudioContext();
-let oscillator = audioContext.createOscillator();
-
-oscillator.detune.value = convertFineIntoDetune(7);
-```
-
-## API
-### Operator
-
-- `convertFineIntoRatio(fine: number): number`
-- `convertFineIntoDetune(fine: number): number`
-
 ## License
+
 MIT
