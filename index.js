@@ -1,7 +1,5 @@
-var convertFineIntoDetune = require("./convertFineIntoDetune");
-var convertFineIntoRatio = require("./convertFineIntoRatio");
-
 module.exports = {
-  convertFineIntoDetune: convertFineIntoDetune,
-  convertFineIntoRatio: convertFineIntoRatio,
+  ArpeggiatorStyle: require("./ArpeggiatorStyle"),
+  convertFineIntoDetune: require("./convertFineIntoDetune"),
+  convertFineIntoRatio: require("./convertFineIntoRatio")
 };
